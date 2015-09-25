@@ -36,8 +36,8 @@ angular.module('cat-tinder', ['ionic', 'ionic.contrib.ui.tinderCards'])
       $scope.cards.splice(index, 1);
     }
 
-    var USERNAME = 'andy_milestone0';
-    var API_KEY = 'b7cd88473d09073c9a11';
+    var USERNAME = '<YOUR USERNAME>';
+    var API_KEY = '<YOUR API KEY>';
     var URL = "https://pixabay.com/api/?username=" +
       USERNAME + "&key=" + API_KEY + "&q=" + encodeURIComponent('cats');
 
